@@ -3,7 +3,7 @@ import {
   CheckCircle,
   Mail,
   MapPin,
-  Phone,
+  // Phone,
   Send,
 } from "lucide-react";
 import { Button } from "../components/Button";
@@ -17,12 +17,12 @@ const contactInfo = [
     value: "hoangchau2310@gmail.com",
     href: "mailto:hoangchau2310@gmail.com",
   },
-  {
-    icon: Phone,
-    label: "Phone",
-    value: "+1 (825) 712-7485",
-    href: "tel:+18257127485",
-  },
+  // {
+  //   icon: Phone,
+  //   label: "Phone",
+  //   value: "+1 (825) 712-7485",
+  //   href: "tel:+18257127485",
+  // },
   { icon: MapPin, label: "Location", value: "Edmonton, AB", href: "#" },
 ];
 
@@ -99,16 +99,13 @@ export const Contact = () => {
             Get In Touch
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100">
-            Still headline
-            <span className="italic text-accent-content">
-              {" "}
-              and some other text but now with a period.
-            </span>
+            Have a project idea?
+            <span className="italic text-accent-content"> Let's connect!</span>
           </h2>
           <p className="text-accent-content/70 animate-fade-in animation-delay-200">
-            This is supposed to be (another) short description but I am making
-            it longer so it may reflects how long it should be when I actually
-            come up with something to say about my projects.
+            Whether you have a question, want to collaborate, or just want to
+            say hi, my inbox is always open. I will try my best to get back to
+            you!
           </p>
         </div>
 
@@ -127,7 +124,7 @@ export const Contact = () => {
                   id="name"
                   type="text"
                   required
-                  placeholder="Your name"
+                  placeholder="Tell me your name..."
                   className="input w-full rounded-xl outline-none transition-all"
                   value={formData.name}
                   onChange={(e) =>
@@ -167,7 +164,7 @@ export const Contact = () => {
                   rows={5}
                   id="message"
                   required
-                  placeholder="Enter your message"
+                  placeholder="Leave your message here..."
                   className="textarea w-full rounded-xl outline-none transition-all resize-none"
                   value={formData.message}
                   onChange={(e) =>
@@ -244,9 +241,10 @@ export const Contact = () => {
                 <span className="font-medium">Currently Available</span>
               </div>
               <p className="text-accent-content/70 text-sm">
-                This text is to say I am looking for internship opportunities
-                and also open to collaboration on exciting projects and that you
-                should contact me if you have either (or both).
+                I am currently looking for internship and collaboration on
+                exciting projects. Feel free to reach out if you have any
+                opportunities or just want to connect{" "}
+                <span className="font-sans">:D</span>
               </p>
             </div>
           </div>

@@ -1,25 +1,26 @@
-import { BadgeQuestionMark } from "lucide-react";
+import { BookOpenText, Handshake, Search, Shapes } from "lucide-react";
 
 const highlights = [
   {
-    icon: BadgeQuestionMark,
-    title: "No title",
-    description: "Empty description",
+    icon: Search,
+    title: "Detail-oriented",
+    description:
+      "I pay attention to every detail to ensure the highest quality.",
   },
   {
-    icon: BadgeQuestionMark,
-    title: "No title",
-    description: "Empty description",
+    icon: Handshake,
+    title: "Collaborative",
+    description: "I work well with others to achieve shared goals.",
   },
   {
-    icon: BadgeQuestionMark,
-    title: "No title",
-    description: "Empty description",
+    icon: Shapes,
+    title: "Creative Vision",
+    description: "I bring innovative ideas and a fresh perspective to my work.",
   },
   {
-    icon: BadgeQuestionMark,
-    title: "No title",
-    description: "Empty description",
+    icon: BookOpenText,
+    title: "Keen Learner",
+    description: "I'm always eager to learn and grow in my field.",
   },
 ];
 
@@ -38,21 +39,30 @@ export const About = () => {
 
             {/* Headline */}
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100">
-              Headline,
+              Approaching software development with{" "}
               <span className="italic text-accent-content">
-                {" "}
-                and some other text
+                quality and accessibility in mind
               </span>
             </h2>
 
             {/* Description Paragraphs */}
             <div className="space-y-4 text-accent-content/70 animate-fade-in animation-delay-200">
-              <p>Paragraph 1</p>
-              <p>Paragraph 2</p>
+              <p>
+                I'm a computer science student with a deep curiosity for machine
+                learning and software engineering. I love building things that
+                are not only functional but also intuitive and thoughtfully
+                crafted, always keeping the human experience at the heart of the
+                solution.
+              </p>
+              <p>
+                When I'm not coding, you can find me digging into the latest
+                trends in tech, doing graphic designs, or adventuring the world
+                inside a good book.
+              </p>
             </div>
 
             {/* Statement */}
-            <div className="glass-custom rounded-2xl p-6 animate-fade-in animation-delay-300 glow-border">
+            <div className="hidden glass-custom rounded-2xl p-6 animate-fade-in animation-delay-300 glow-border">
               <p className="text-lg font-medium italic text-base-content">
                 "Some mission statement."
               </p>

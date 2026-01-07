@@ -2,17 +2,19 @@ import { ArrowUpRight } from "lucide-react";
 
 const projects = [
   {
-    title: "No title",
-    description: "Empty description",
-    image: "/vt-beach-2.JPG",
-    tags: ["Tag 1", "Tag 2"],
-    link: "",
+    title: "Event Lottery System",
+    description:
+      "Developed an Android event lottery app in a team of five, implementing real-time data, multi-role workflows, QR check-ins, and automated notifications.",
+    image: "/event_lottery_thumbnail.png",
+    tags: ["Java", "Firebase", "XML"],
+    link: "https://drive.google.com/file/d/1Rul9wUiP2nOIeeRqxCXOoFIvOLzlX5B1/view?usp=drive_link",
   },
   {
-    title: "No title",
-    description: "Empty description",
+    title: "Web-based Document Editor",
+    description:
+      "Built a document editor with full styling and async database functions for user auth and document management.",
     image: "/vt-beach-4.JPG",
-    tags: ["Tag 1", "Tag 2"],
+    tags: ["React", "Node.js", "PostgreSQL"],
     link: "",
   },
 ];
@@ -31,16 +33,12 @@ export const Projects = () => {
             Featured Projects
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100">
-            Headline
-            <span className="italic text-accent-content">
-              {" "}
-              and some other text
-            </span>
+            Learning by
+            <span className="italic text-accent-content"> building</span>
           </h2>
           <p className="text-accent-content/70 animate-fade-in animation-delay-200">
-            This is supposed to be a short description but I am making it longer
-            so it may reflects how long it should be when I actually come up
-            with something to say about my projects.
+            A selection of projects showcasing my skills and experience through
+            examples of my work.
           </p>
         </div>
 
@@ -59,11 +57,13 @@ export const Projects = () => {
                   alt={project.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-linear-to-t from-neutral via-neutral/50 to-transparent opacity-60" />
+                <div className="absolute inset-0 bg-linear-to-t from-neutral via-neutral/50 to-transparent opacity-30" />
                 {/* Overlay Link(s) */}
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <a
                     href={project.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="p-3 rounded-full glass-custom hover:bg-neutral transition-all"
                   >
                     <ArrowUpRight className="w-5 h-5" />

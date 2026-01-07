@@ -44,7 +44,11 @@
 
   .glow-text {
     text-shadow: 0 0 30px
-      color-mix(in srgb, var(--color-base-content) 60%, transparent);
+      color-mix(in srgb, var(--color-base-content) 50%, transparent);
+  }
+  .glow-text-accent {
+    text-shadow: 0 0 30px
+      color-mix(in srgb, var(--color-accent-content) 45%, transparent);
   }
   .glow-border {
     box-shadow: 0 0 30px

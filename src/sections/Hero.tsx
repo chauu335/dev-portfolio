@@ -5,6 +5,7 @@ const skills = [
   "Python",
   "HTML/CSS",
   "Javascript",
+  "Typescript",
   "React",
   "Node.js",
   "SQL",
@@ -42,18 +43,17 @@ export const Hero = () => {
 
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-accent-content text-3xl md:text-4xl lg:text-5xl font-bold leading-tight animate-fade-in animation-delay-100">
-                Life is a{" "}
-                <span className="text-base-content glow-text">gamble</span>
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight animate-fade-in animation-delay-100">
+                A seamless experience
                 <br />
-                and there is gambling in
-                <br />
-                <span className="italic">every single action.</span>
+                <span className="italic font-bold text-accent-content glow-text-accent">
+                  requires a thoughtful design.
+                </span>
               </h1>
-              <p className="text-lg text-base-content/70 max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Chau, a student at the University of Alberta with a
-                strong interest in software design and machine learning. (Some
-                other short description.)
+              <p className="text-lg text-accent-content/70 max-w-lg animate-fade-in animation-delay-200">
+                I'm Chau, a student at the University of Alberta. I thrive on
+                building practical software—whether it's designing intelligent
+                systems or crafting full-stack web apps.
               </p>
             </div>
             {/* Buttons */}
@@ -61,12 +61,18 @@ export const Hero = () => {
               <Button size="lg" className="btn-primary">
                 Contact Me <ArrowRight className="w-5 h-5" />
               </Button>
-              <button className="btn btn-outline btn-primary text-lg rounded-full font-normal">
-                <span className="relative z-10 flex items-center justify-center gap-2">
-                  <Download className="w-5 h-5" />
-                  Download CV
-                </span>
-              </button>
+              <a
+                href="/Duc_Hoang_Chau_Ngo_resume.pdf"
+                download="Duc_Hoang_Chau_Ngo_resume.pdf"
+                target="_blank"
+              >
+                <button className="btn btn-outline btn-primary text-lg rounded-full font-normal">
+                  <span className="relative z-10 flex items-center justify-center gap-2">
+                    <Download className="w-5 h-5" />
+                    Download CV
+                  </span>
+                </button>
+              </a>
             </div>
           </div>
           {/* Right Column - Profile Image */}
@@ -75,7 +81,7 @@ export const Hero = () => {
             <div className="max-w-md mx-auto">
               <div className="relative glass-custom rounded-3xl glow-border">
                 <img
-                  src="/vt-beach-1.JPG"
+                  src="/profile_image.jpg"
                   alt="Duc Hoang Chau Ngo"
                   className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
@@ -97,7 +103,7 @@ export const Hero = () => {
         {/* Skills Section */}
         <div className="mt-20 animate-fade-in animation-delay-600">
           <p className="text-sm text-base-content/70 mb-6 text-center">
-            (My skills)
+            Technologies I work with
           </p>
           <div className="overflow-hidden relative">
             <div className="absolute top-0 left-0 bottom-0 w-32 bg-linear-to-r from-base-100 to-transparent z-10" />
@@ -114,11 +120,12 @@ export const Hero = () => {
           </div>
         </div>
       </div>
+
       {/* Scroll Button */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-fade-in animation-delay-800 z-50">
         <a
           href="#about"
-          className="flex flex-col items-center gap-2 text-base-content/70 hover:text-accent-content"
+          className="flex flex-col items-center gap-2 text-accent-content/70 hover:text-base-content transition-colors group"
         >
           <span className="text-xs uppercase tracking-wider">Scroll</span>
           <ChevronDown className="w-6 h-6 animate-bounce" />
