@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
   {
@@ -8,14 +8,26 @@ const projects = [
     image: "/event_lottery_thumbnail.png",
     tags: ["Java", "Firebase", "XML"],
     link: "https://drive.google.com/file/d/1Rul9wUiP2nOIeeRqxCXOoFIvOLzlX5B1/view?usp=drive_link",
+    github: "https://github.com/CMPUT301F25basket/shopping-basket",
   },
   {
     title: "Web-based Document Editor",
     description:
       "Built a document editor with full styling and async database functions for user auth and document management.",
-    image: "/vt-beach-4.JPG",
-    tags: ["React", "Node.js", "PostgreSQL"],
+    image: "/journal_app_thumbnail.png",
+    tags: ["TypeScript", "React", "Node.js", "PostgreSQL"],
     link: "",
+    github: "https://github.com/chauu335/journal-app",
+  },
+  {
+    title: "Social Media App",
+    description:
+      "In a team of four, developed a CLI social media platform, enabling user authentication, posting, following, and search. Focused on data integrity with robust validation and protected database operations.",
+    image: "/social_media_thumbnail.png",
+    tags: ["Python", "SQLite"],
+    link: "",
+    github:
+      "https://github.com/CMPUT291-F24/assignment-3-aacd-cmput-291-mini-project-1",
   },
 ];
 
@@ -64,11 +76,20 @@ export const Projects = () => {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-3 rounded-full glass-custom hover:bg-neutral transition-all"
+                    className={`p-3 rounded-full glass-custom hover:bg-neutral transition-all ${
+                      project.link ? "" : "pointer-events-none opacity-50"
+                    }`}
                   >
                     <ArrowUpRight className="w-5 h-5" />
                   </a>
-                  {/* Place the Github link below this (same as above) if you want to... */}
+                  <a
+                    href={project.github || "#"}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="p-3 rounded-full glass-custom hover:bg-neutral transition-all"
+                  >
+                    <Github className="w-5 h-5" />
+                  </a>
                 </div>
               </div>
               {/* Project Content */}
