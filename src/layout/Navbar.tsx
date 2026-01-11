@@ -53,7 +53,7 @@ export const Navbar = () => {
         {/* Contact Button */}
         <div className="hidden md:block">
           <Button size="sm" className="btn-primary">
-            Contact Me
+            <a href="#contact">Contact Me</a>
           </Button>
         </div>
 
@@ -85,7 +85,7 @@ export const Navbar = () => {
               className="btn-primary"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Contact Me
+              <a href="#contact">Contact Me</a>
             </Button>
           </div>
         </div>

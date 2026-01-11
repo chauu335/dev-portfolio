@@ -59,7 +59,9 @@ export const Hero = () => {
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 animation-delay-300">
               <Button size="lg" className="btn-primary">
-                Contact Me <ArrowRight className="w-5 h-5" />
+                <a href="#contact">
+                  Contact Me <ArrowRight className="w-5 h-5" />
+                </a>
               </Button>
               <a
                 href="/Duc_Hoang_Chau_Ngo_resume.pdf"
