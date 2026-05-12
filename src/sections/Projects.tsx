@@ -22,7 +22,7 @@ const projects = [
   {
     title: "Social Media App",
     description:
-      "Developed a CLI social media platform with user authentication, posting, following, and search capabilities with robust data validation.",
+      "In a team of four, developed a CLI social media platform, enabling user authentication, posting, following, and search. Focused on data integrity with robust validation and protected database operations.",
     image: "/social_media_thumbnail.png",
     tags: ["Python", "SQLite"],
     link: "",
@@ -31,9 +31,11 @@ const projects = [
   },
   {
     title: "Optimizer Animated Visualizer",
-    description: "Interactive visualization tool comparing machine learning optimizers (SGD, Adam, RMSprop) with real-time animated learning curves.",
+    description:
+      "Interactive visualization tool comparing machine learning optimizers (SGD, Adam, RMSprop) with real-time animated learning curves.",
     image: "/optimizer_visualizer_thumbnail.png",
     tags: ["Python", "React", "Typescript", "Recharts", "Node.js"],
+    link: "https://web-production-aae9d.up.railway.app/",
   },
 ];
 
