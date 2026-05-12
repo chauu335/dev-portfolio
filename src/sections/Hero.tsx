@@ -51,9 +51,9 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-accent-content/70 max-w-lg animate-fade-in animation-delay-200">
-                I'm Chau, a student at the University of Alberta. I thrive on
-                building practical software—whether it's designing intelligent
-                systems or crafting full-stack web apps.
+                I'm Chau (Thomas), a student at the University of Alberta. I
+                thrive on building practical software—whether it's designing
+                intelligent systems or crafting full-stack web apps.
               </p>
             </div>
             {/* Buttons */}
@@ -64,8 +64,8 @@ export const Hero = () => {
                 </a>
               </Button>
               <a
-                href="/Duc_Hoang_Chau_Ngo_resume.pdf"
-                download="Duc_Hoang_Chau_Ngo_resume.pdf"
+                href="/Thomas_Ngo_CV.pdf"
+                download="Thomas_Ngo_CV.pdf"
                 target="_blank"
               >
                 <button className="btn btn-outline btn-primary text-lg rounded-full font-normal">
@@ -84,7 +84,7 @@ export const Hero = () => {
               <div className="relative glass-custom rounded-3xl glow-border">
                 <img
                   src="/profile_image.jpg"
-                  alt="Duc Hoang Chau Ngo"
+                  alt="Thomas Ngo"
                   className="w-full aspect-4/5 object-cover rounded-2xl"
                 />
 
