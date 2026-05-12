@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Event Lottery System",
     description:
-      "Developed an Android event lottery app in a team of five, implementing real-time data, multi-role workflows, QR check-ins, and automated notifications.",
+      "Developed an Android event lottery app with real-time data, multi-role workflows, QR check-ins, and automated notifications.",
     image: "/event_lottery_thumbnail.png",
     tags: ["Java", "Firebase", "XML"],
     link: "https://drive.google.com/file/d/1Rul9wUiP2nOIeeRqxCXOoFIvOLzlX5B1/view?usp=drive_link",
@@ -13,7 +13,7 @@ const projects = [
   {
     title: "Web-based Document Editor",
     description:
-      "Built a document editor with full styling and async database functions for user auth and document management.",
+      "Built a document editor with full styling, async database functions for user auth, and document management.",
     image: "/journal_app_thumbnail.png",
     tags: ["TypeScript", "React", "Node.js", "PostgreSQL"],
     link: "",
@@ -22,12 +22,18 @@ const projects = [
   {
     title: "Social Media App",
     description:
-      "In a team of four, developed a CLI social media platform, enabling user authentication, posting, following, and search. Focused on data integrity with robust validation and protected database operations.",
+      "Developed a CLI social media platform with user authentication, posting, following, and search capabilities with robust data validation.",
     image: "/social_media_thumbnail.png",
     tags: ["Python", "SQLite"],
     link: "",
     github:
       "https://github.com/CMPUT291-F24/assignment-3-aacd-cmput-291-mini-project-1",
+  },
+  {
+    title: "Optimizer Animated Visualizer",
+    description: "Interactive visualization tool comparing machine learning optimizers (SGD, Adam, RMSprop) with real-time animated learning curves.",
+    image: "/optimizer_visualizer_thumbnail.png",
+    tags: ["Python", "React", "Typescript", "Recharts", "Node.js"],
   },
 ];
 
