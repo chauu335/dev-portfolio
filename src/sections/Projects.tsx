@@ -35,7 +35,25 @@ const projects = [
       "Interactive visualization tool comparing machine learning optimizers (SGD, Adam, RMSprop) with real-time animated learning curves.",
     image: "/optimizer_visualizer_thumbnail.png",
     tags: ["Python", "React", "Typescript", "Recharts", "Node.js"],
-    link: "https://web-production-aae9d.up.railway.app/",
+    link: "",
+    github: "https://github.com/chauu335/optimizer-visualizer",
+  },
+  {
+    title: "Agri Rescue Platform",
+    description:
+      "Architected a 7-service microservices platform for agricultural produce rescue with event-driven design (RabbitMQ), the outbox pattern, and idempotent consumers for reliable processing.",
+    image: "",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "RabbitMQ",
+      "Docker",
+    ],
+    link: "",
+    github: "https://github.com/chauu335/agri-rescue-platform",
   },
 ];
 

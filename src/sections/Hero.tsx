@@ -8,10 +8,17 @@ const skills = [
   "Typescript",
   "React",
   "Node.js",
+  "Express",
   "SQL",
   "C",
   "C++",
   "Java",
+  "Docker",
+  "RabbitMQ",
+  "PostgreSQL",
+  "Firebase",
+  "Git",
+  "Linux",
 ];
 
 export const Hero = () => {
