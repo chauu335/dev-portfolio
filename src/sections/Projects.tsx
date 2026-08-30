@@ -2,6 +2,23 @@ import { ArrowUpRight, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Agri Rescue Platform",
+    description:
+      "Architected a 7-service microservices platform for agricultural produce rescue with event-driven design (RabbitMQ), the outbox pattern, and idempotent consumers for reliable processing.",
+    image: "",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "RabbitMQ",
+      "Docker",
+    ],
+    link: "",
+    github: "https://github.com/chauu335/agri-rescue-platform",
+  },
+  {
     title: "Event Lottery System",
     description:
       "Developed an Android event lottery app with real-time data, multi-role workflows, QR check-ins, and automated notifications.",
@@ -9,6 +26,15 @@ const projects = [
     tags: ["Java", "Firebase", "XML"],
     link: "https://drive.google.com/file/d/1Rul9wUiP2nOIeeRqxCXOoFIvOLzlX5B1/view?usp=drive_link",
     github: "https://github.com/CMPUT301F25basket/shopping-basket",
+  },
+  {
+    title: "Optimizer Animated Visualizer",
+    description:
+      "Interactive visualization tool comparing machine learning optimizers (SGD, Adam, RMSprop) with real-time animated learning curves.",
+    image: "/optimizer_visualizer_thumbnail.png",
+    tags: ["Python", "React", "Typescript", "Recharts", "Node.js"],
+    link: "",
+    github: "https://github.com/chauu335/optimizer-visualizer",
   },
   {
     title: "Web-based Document Editor",
@@ -28,32 +54,6 @@ const projects = [
     link: "",
     github:
       "https://github.com/CMPUT291-F24/assignment-3-aacd-cmput-291-mini-project-1",
-  },
-  {
-    title: "Optimizer Animated Visualizer",
-    description:
-      "Interactive visualization tool comparing machine learning optimizers (SGD, Adam, RMSprop) with real-time animated learning curves.",
-    image: "/optimizer_visualizer_thumbnail.png",
-    tags: ["Python", "React", "Typescript", "Recharts", "Node.js"],
-    link: "",
-    github: "https://github.com/chauu335/optimizer-visualizer",
-  },
-  {
-    title: "Agri Rescue Platform",
-    description:
-      "Architected a 7-service microservices platform for agricultural produce rescue with event-driven design (RabbitMQ), the outbox pattern, and idempotent consumers for reliable processing.",
-    image: "",
-    tags: [
-      "Java",
-      "Spring Boot",
-      "React",
-      "TypeScript",
-      "PostgreSQL",
-      "RabbitMQ",
-      "Docker",
-    ],
-    link: "",
-    github: "https://github.com/chauu335/agri-rescue-platform",
   },
 ];
 
